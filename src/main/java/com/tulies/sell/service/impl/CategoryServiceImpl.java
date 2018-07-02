@@ -2,7 +2,7 @@ package com.tulies.sell.service.impl;
 
 import com.tulies.sell.dataobject.ProductCategory;
 import com.tulies.sell.repository.ProductCategoryRepository;
-import com.tulies.sell.service.ProductCategoryService;
+import com.tulies.sell.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +13,7 @@ import java.util.List;
  * @date 2018/6/29 下午11:48
  */
 @Service
-public class ProductCategoryServiceImpl implements ProductCategoryService {
+public class CategoryServiceImpl implements CategoryService {
 
     @Autowired
     private ProductCategoryRepository productCategoryRepository;

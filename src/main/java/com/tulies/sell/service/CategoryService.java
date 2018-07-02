@@ -9,7 +9,7 @@ import java.util.List;
  * @author 王嘉炀
  * @date 2018/6/29 下午11:43
  */
-public interface ProductCategoryService {
+public interface CategoryService {
 
     ProductCategory findOne(Integer categoryId);
 
